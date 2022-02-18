@@ -1,90 +1,25 @@
-/* Reset */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="es">
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-figure,
-picture {
-  margin: 0;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 02 - Display</title>
+  <!--  <script src="https://res.cloudinary.com/pmichventura/raw/upload/v1645150279/source/display.js" type="module"></script> -->
+  <link rel="stylesheet" href="style.css">
+</head>
 
-body {
-  line-height: 1.5;
-  min-height: 100vh;
-}
+<body>
+  <!-- comenzamos aquí👇🏼 -->
+  <div class="contenedor-banner">
+    <h2>Mi título</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nisi a vel.</p>
+    <img src="https://res.cloudinary.com/pmichventura/image/upload/v1645148357/imagenes/10_mzggpy.jpg" alt="imagen">
+  </div>
+  <div class="contenedor">
+    <footer>Copyright</footer>
+  </div>
+</body>
 
-ul {
-  margin: 0;
-  padding-inline: 0;
-}
-
-li {
-  list-style: none;
-}
-
-img,
-picture {
-  max-width: 100%;
-  display: block;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behaviour: auto !important;
-  }
-}
-
-/* Variables */
-:root {
-  --font-sans: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
-  /* --size-outline: 3px; // Esto es para cambiar el outline del helper */
-}
-
-/* Base */
-body {
-  font-family: var(--font-sans);
-}
-/* Layout */
-.contenedor-banner {
-  /*background-color: brown;*/
-}
-.contenedor-banner h2 {
-  font-size: 30px;
-  text-align: center;
-}
-.contenedor-banner p {}
-.contenedor-banner img {
-  width: 300px;
-  height: 169px;
-  margin: 0 0 0 0;
-}
-
-.contenedor footer {
-  font-size: 10px;
-  color: blueviolet;
-  text-align: left;
-}
-
-/* Componentes */
-
-/* Utilidades */
-.flex {
-  display: flex;
-}
-.grid {
-  display: grid;
-}
+</html>
