@@ -83,6 +83,13 @@ body {
   background-size: contain;
   background-position: center;
 }
+.imagenpequeña{
+  max-width: 50%;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  position:sticky;
+display:block;
+}
 
 .nombre1 {
   --f-size: 200px;
